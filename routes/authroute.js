@@ -6,7 +6,7 @@ const {login ,signup ,logout} = require("../Controller/authcontr")
 router.get('/',(req,res)=>{
     res.json("Hello")
 })
-router.put('/login' , login)
+router.post('/login' , login)
 
 router.get('/logout' ,logout )
  
